@@ -2,7 +2,7 @@ Summary:	A C decompiler
 Summary(pl):	Dekompilator C
 Name:		uncc
 Version:	0.1.2.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Debuggers
 Source0:	http://www.uncc.info/%{name}-%{version}.tar.gz
@@ -20,7 +20,7 @@ composition, it outputs a comparable C program out of it.
 
 %description -l pl
 uncc jest dekompilatorem C. Z nim mo¿esz (prawie) automatycznie
-przekompilowaæ program do któego masz ju¿ skompilowany program
+przekompilowaæ program do którego masz ju¿ skompilowany program
 wykonywalny. Proces dekompilacji jest wykonywany przez disassembler
 objdump. Engine uncc bierze ¼ród³o assemblera z wej¶cia i przez serie
 rozpoznawania algorytmów odtwarza porównywalny program C.
@@ -36,11 +36,12 @@ rozpoznawania algorytmów odtwarza porównywalny program C.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -D %{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
+install -D test/dasm.pl $RPM_BUILD_ROOT%{_bindir}/dasm.pl
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc docs/* README BUGS TODO AUTHORS
+%doc docs/* BUGS TODO AUTHORS
 %attr(755,root,root) %{_bindir}/*
