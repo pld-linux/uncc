@@ -19,11 +19,12 @@ input and, through a series of recognition algorithms and expression
 composition, it outputs a comparable C program out of it.
 
 %description -l pl
-uncc jest dekompilatorem C. Z nim mo¿esz (prawie) automatycznie
-przekompilowaæ program do którego masz ju¿ skompilowany program
-wykonywalny. Proces dekompilacji jest wykonywany przez disassembler
-objdump. Engine uncc bierze ¼ród³o assemblera z wej¶cia i przez serie
-rozpoznawania algorytmów odtwarza porównywalny program C.
+uncc jest dekompilatorem C. Przy jego u¿yciu mo¿na (prawie)
+automatycznie odtworzyæ ¼ród³a programu, do którego mamy tylko ju¿
+skompilowany program wykonywalny. Proces dekompilacji jest wykonywany
+przez disasembler objdump. Silnik uncc bierze ¼ród³o asemblera z
+wej¶cia i poprzez szereg algorytmów rozpoznawania i sk³adania wyra¿eñ
+odtwarza porównywalny program w C.
 
 %prep
 %setup -q
