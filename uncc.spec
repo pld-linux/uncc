@@ -29,7 +29,9 @@ rozpoznawania algorytmów odtwarza porównywalny program C.
 %setup -q
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
