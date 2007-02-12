@@ -1,5 +1,5 @@
 Summary:	A C decompiler
-Summary(pl.UTF-8):   Dekompilator C
+Summary(pl.UTF-8):	Dekompilator C
 Name:		uncc
 Version:	0.1.2.1
 Release:	2
