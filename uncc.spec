@@ -1,5 +1,5 @@
 Summary:	A C decompiler
-Summary(pl):	Dekompilator C
+Summary(pl.UTF-8):   Dekompilator C
 Name:		uncc
 Version:	0.1.2.1
 Release:	2
@@ -18,13 +18,13 @@ objdump disassembler. The uncc engine takes an assembly source file as
 input and, through a series of recognition algorithms and expression
 composition, it outputs a comparable C program out of it.
 
-%description -l pl
-uncc jest dekompilatorem C. Przy jego uøyciu moøna (prawie)
-automatycznie odtworzyÊ ºrÛd≥a programu, do ktÛrego mamy tylko juø
+%description -l pl.UTF-8
+uncc jest dekompilatorem C. Przy jego u≈ºyciu mo≈ºna (prawie)
+automatycznie odtworzyƒá ≈∫r√≥d≈Ça programu, do kt√≥rego mamy tylko ju≈º
 skompilowany program wykonywalny. Proces dekompilacji jest wykonywany
-przez disasembler objdump. Silnik uncc bierze ºrÛd≥o asemblera z
-wej∂cia i poprzez szereg algorytmÛw rozpoznawania i sk≥adania wyraøeÒ
-odtwarza porÛwnywalny program w C.
+przez disasembler objdump. Silnik uncc bierze ≈∫r√≥d≈Ço asemblera z
+wej≈õcia i poprzez szereg algorytm√≥w rozpoznawania i sk≈Çadania wyra≈ºe≈Ñ
+odtwarza por√≥wnywalny program w C.
 
 %prep
 %setup -q
