@@ -5,9 +5,11 @@ Version:	0.1.2.1
 Release:	2
 License:	GPL
 Group:		Development/Debuggers
-Source0:	http://www.uncc.info/%{name}-%{version}.tar.gz
+#Source0:	http://www.uncc.info/%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	57eeedd1c37a9046238f9967a4183603
-URL:		http://www.uncc.info/
+#URL:		http://www.uncc.info/
+URL:		http://savannah.nongnu.org/projects/uncc/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
